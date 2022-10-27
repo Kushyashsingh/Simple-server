@@ -41,8 +41,8 @@ app.get("/calculate/:operation",(req,res) =>
     const result = num1 * num2;
     res.send(result + "");
   }
-else if (opr == "div") 
-{
+  else if (opr == "div") 
+  {
     const num1 = Number(req.query.num1);
     const num2 = Number(req.query.num2);
     const result = num1 / num2;
